@@ -1,0 +1,55 @@
+.container{
+    padding: 7px;
+    background-color: rgb(0, 13, 41);
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: 2fr 2fr 1fr 1fr 2fr;
+    grid-template-areas:"header header header header header"
+                        "nav nav nav nav nav"
+                        "my-4 my-4 my-4 my-4 my-4"
+                        "card1 card2 card3 card3 card4"
+                        "contenido contenido contenido ads ads"
+                        "footer footer footer footer footer";
+}
+.container .header{
+    grid-area: header;
+    background-color: rgba(27, 46, 77, 0.942);
+}
+.container .nav{
+    grid-area: nav;
+    background-color:  rgb(104, 131, 127);
+}
+.container .my-4{
+    grid-area: my-4;
+    background-color:rgb(104, 131, 127);
+}
+.container .card1{
+    grid-area: card1;
+    background-color: rgba(27, 46, 77, 0.942);
+}
+.container .card2{
+    grid-area: card2;
+    background-color: rgba(27, 46, 77, 0.942);
+}
+.container .card3{
+    grid-area: card3;
+    background-color: rgba(27, 46, 77, 0.942);
+}
+.container .card4{
+    grid-area: card4;
+    background-color: rgba(27, 46, 77, 0.942);
+}
+.container .contenido{
+    grid-area: contenido;
+    background-color: rgb(104, 131, 127);
+}
+.container .ads{
+    grid-area: ads;
+    background-color: rgb(104, 131, 127);
+}
+.container .footer{
+    grid-area: footer;
+    background-color: rgba(27, 46, 77, 0.942);
+    padding: 20px;
+    text-align: center;
+}
